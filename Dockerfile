@@ -20,4 +20,4 @@ RUN php composer.phar install
 
 #RUN mkdir -p /opt/output
 
-CMD ["php convert.php --filename=/opt/input.xml --output=/opt/output"]
+CMD php convert.php --filename=/opt/input.xml --output=/opt/output
