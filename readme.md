@@ -1,6 +1,11 @@
 Converter
 =========
 
+Convert Mediawiki exported xml files to e.g. Markdown. Export e.g. with `php dumpBackup.php --current > input-file-name.xml`
+
+Usage
+-----
+
 Build
 `docker build --tag="wiki-converter" .`
 
@@ -20,7 +25,7 @@ Use your own arguments (see readme in mediawiki-to-markdown-master directory) af
 
 Be careful: The paths are from inside the container - filename and output should not be changed. Changing the format option might be the easiest way, to adjust output. 
 
-Sources
--------
+Converter-Source
+----------------
 
 https://github.com/philipashlock/mediawiki-to-markdown
