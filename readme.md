@@ -24,4 +24,3 @@ Sources
 -------
 
 https://github.com/philipashlock/mediawiki-to-markdown
-https://github.com/jagregory/pandoc-docker/blob/master/Dockerfile
