@@ -29,7 +29,7 @@ Be careful: The paths are from inside the container - filename and output should
 Modified Markdown-Links
 -----------------------
 
-To get links in the output Markdown files directly to the other .md-files, uncomment line 96 in [convert.php](https://git.uni-project.de/updev/converter-mediawiki-markdown/blob/master/mediawiki-to-markdown-master/convert.php#L96) (`$text = str_replace(' "wikilink")', '.md "wikilink")', $text);`). Without this "Trick" your links will be without the .md file-extention.
+To get links in the output Markdown files directly to the other .md-files, uncomment line 96 in [convert.php](/mediawiki-to-markdown-master/convert.php#L96) (`$text = str_replace(' "wikilink")', '.md "wikilink")', $text);`). Without this "Trick" your links will be without the .md file-extention.
 
 
 Converter-Source
