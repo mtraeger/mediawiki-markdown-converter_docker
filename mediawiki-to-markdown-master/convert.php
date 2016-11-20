@@ -1,4 +1,3 @@
-
 <?php
 
 $arguments = arguments($argv);
@@ -92,6 +91,9 @@ while(list( , $node) = each($result)) {
     $text = $pandoc->runWith($text, $options);
 
     $text = str_replace('\_', '_', $text);
+    
+    //TODO add .md as file extention in wikilinks
+    // $text = str_replace(' "wikilink")', '.md "wikilink")', $text);
 
     if ($add_meta) {
         $text = $frontmatter . $text;
